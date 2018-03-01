@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class Main {
+    //replace with file path
     private static final String FILE_PATH = "C:\\PATH\\NJIT\\src\\supermarket_test.csv";
 
     public static void main(String args[]) {
@@ -36,7 +37,6 @@ public class Main {
             }
 
             scanner.close();
-
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         }
